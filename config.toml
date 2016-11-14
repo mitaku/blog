@@ -1,0 +1,63 @@
+baseurl = "https://mitaku.github.io"
+title = "mitaku.log"
+languageCode = "ja"
+theme="greyshade"
+
+MetaDataFormat = "toml"
+paginate = 9 # To specify a multiple of 3
+copyright = "© 2016 Copyright Takumi Miura"
+pygmentscodefences = true
+pygmentsstyle = "manni"
+
+[permalinks]
+  post = "/blog/:year/:month/:day/:filename/"
+
+[indexes]
+  category = "categories"
+  tag = "tags"
+
+[author]
+name = "TakumiMIURA"
+# email will use for gravatar
+email = "mitaku1104@gmail.com"
+
+[taxonomies]
+category = "categories"
+
+[params]
+# site description, will show under navigation
+description = "mitaku blog"
+
+# RSS / Email (optional) subscription links (change if using something like Feedburner)
+subscribe_rss = "/index.xml"
+subscribe_email = ""
+
+# social links
+facebook_user = ""
+googleplus_user = ""
+twitter_user = "mitaku"
+github_user = "mitaku"
+coderwall_user = ""
+stackoverflow_user = ""
+stackoverflow_user_id = ""
+linkedin_user = ""
+pinterest_user = ""
+delicious_user = ""
+pinboard_user = ""
+quora_user = ""
+instagram_user = ""
+behance_user = ""
+douban_user = ""
+
+# share links
+facebook_like = true
+twitter_tweet_button = true
+google_plus_one = "false"
+addthis_profile_id = ""
+
+# Disqus Comments
+disqus_short_name = ""
+disqus_show_comment_count = false
+
+# google analytics
+google_analytics_tracking_id = "UA-71754208-1"
